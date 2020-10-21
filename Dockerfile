@@ -8,7 +8,7 @@ ADD image/ /opt/www/file-browser/image/
 ADD js/ /opt/www/file-browser/js/
 ADD index.html /opt/www/file-browser/
 
-mkdir -p /opt/www/api/device/otaFlash
+RUN mkdir -p /opt/www/api/device/otaFlash
 
 VOLUME /opt/www/files/
 EXPOSE 80
